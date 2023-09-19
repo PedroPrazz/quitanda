@@ -26,7 +26,7 @@ class SignInScreen extends StatelessWidget {
                   borderRadius: BorderRadius.vertical(
                     top: Radius.circular(45),
                   )),
-              child: const Column(
+              child: Column(
                 children: [
                   // Email
                   CustomTextField(
@@ -37,7 +37,7 @@ class SignInScreen extends StatelessWidget {
                   CustomTextField(
                     icon: Icons.lock,
                     label: 'Senha',
-                    isObscure: true,
+                    isSecret: true,
                   )
                 ],
               ),
